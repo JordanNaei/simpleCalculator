@@ -237,7 +237,7 @@ $(numbers).on("click", function() {
             console.log(number1);
             $(num1Display).text(number1);
             number1Exist = true;
-          }else if (operatorExist === true && number1Exist === true) {
+          }else if (operatorExist === true && number1Exist === true && resultExist===false) {
             var userInput2 = this.innerText;
             number2 = number2.concat(userInput2);
             console.log(number2);
